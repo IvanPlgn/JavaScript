@@ -22,18 +22,19 @@ console.log("item_3 =", item_3)
 // 12. Вывести в консоль item_4.
 let item_4 = "Yolochka"
 console.log("item_4 =", item_4, typeof (item_4))
-
-// console.log("item_4 =", item_4)
+console.log("item_4 =", item_4)
 
 // 13. Вывести в консоль сложение item_3 и item_4.
 // console.log(item_3 + item_4)
 console.log("item_3 + item_4 =", item_3 + item_4)
+
 // 14. Вывести в консоль умножение item_3 и item_4.
 console.log("item_3 * item_4 =", item_3 * item_4)
+
 // 15. Создать переменную “item_5”
 // 16. Присвоить переменной item_5 переменную item_3
 let item_5 = item_3
-// console.log("item_5 =", item_5)
+console.log("item_5 =", item_5)
 
 // 17. Создать переменную item_6.
 // 18. Создать переменную item_6_type
@@ -49,7 +50,7 @@ console.log("item_6_type ==", item_6_type, "type is", typeof (item_6_type))
 
 // 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 let item_7 = item_6.toString
-// console.log("item_7 =", item_7, typeof (item_7))
+console.log("item_7 =", item_7, typeof (item_7))
 
 // 23. Создать переменную item_7_type
 // 24. Присвоить переменной item_7_type тип переменной item_7
