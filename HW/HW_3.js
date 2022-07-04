@@ -11,14 +11,12 @@ const checkAge = function(age) {
     age = Number(age)
     console.log(age)
 
-// if (typeof age == 'number') {
     if(age) {
-            
     if (age < age2) {
-        console.log('You don’t have access cause your age is '  + age + ' It’s less then ' + age2);
-    } else if (age >=  age2 && age <  age3) {
-        console.log('Welcome  !');
-    } else if (age  > age3) {
+        console.log('You don’t have access cause your age is' + age + 'It’s less then' + age2);
+    } else if (age >= age2 && age < age3) {
+        console.log('Welcome!');
+    } else if (age > age3) {
         console.log('Keep calm and look Culture channel');
     } else {
         console.log('Technical work');
